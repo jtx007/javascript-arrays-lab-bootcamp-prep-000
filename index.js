@@ -22,5 +22,12 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(name) {
   var newArray = [...kittens, name]
   return newArray
+  //appends a kitten to end of array and returns a new array and preserves the original
 
+}
+
+function prependKitten(name) {
+  var newArray = [name...,kittens]
+  return newArray
+  //prepends a kitten to array and returns a new array while preserving the original
 }
