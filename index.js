@@ -3,3 +3,8 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
   //appends kitten to end of array
 }
+
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
+  //prepends a kitten to beginning of array
+}
