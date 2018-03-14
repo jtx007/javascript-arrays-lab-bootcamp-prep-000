@@ -8,3 +8,8 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   //prepends a kitten to beginning of array
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  //removes last kitten from array
+}
