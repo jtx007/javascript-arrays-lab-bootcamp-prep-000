@@ -31,3 +31,9 @@ function prependKitten(name) {
   return newArray
   //prepends a kitten to array and returns a new array while preserving the original
 }
+
+function removeLastKitten() {
+  var newArray = kitten.slice(-1)
+  return newArray
+  //remove last kitten from array and return a new array while preserving the original 
+}
